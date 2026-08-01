@@ -1,9 +1,7 @@
 # Personal Speedcube Timer
 
 ## Description
-A lightweight, portable speedcube timer designed to track your solves seamlessly across multiple computers. Built to run directly from an 
-external drive, this application automatically generates and manages a local SQLite database in its root directory. This ensures your solve history, 
-session statistics, and custom configurations stay synced wherever you go.
+Many speedcubers use multiple computers, making it difficult to keep solve histories synchronized across devices. This project was designed to provide a simple, portable alternative. The application stores all solve data in a local SQLite database located within the application's directory, making the entire timer self-contained. Whether it's run from a USB drive, portable SSD, or local folder, your complete solve history travels with the application—no cloud services or manual synchronization required.
 
 ## Setup
 Ensure you have Python installed on your system. Then, install the required dependencies via your terminal:
